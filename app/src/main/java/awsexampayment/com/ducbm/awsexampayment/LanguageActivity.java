@@ -50,7 +50,7 @@ public class LanguageActivity extends ActionBarActivity {
         String[] values = new String[] { "Exam"};
         if(subjectChoose.equals("AWS-Architect"))
         {
-            values = new String[]{"Exam","Exam_B","Exam_C","VPC","SWF","SQS","S3","EC2","Route53","Performance","RDS"};
+            values = new String[]{"Exam","Exam_B","Exam_C","VPC","SWF","SQS","S3","EC2","Route53","Performance","RDS","IAM/Security","Overview","EBS","Database"};
         }
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
                 android.R.layout.simple_list_item_1, android.R.id.text1, values);

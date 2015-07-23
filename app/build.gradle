@@ -8,7 +8,7 @@ android {
         applicationId "awsexampayment.com.ducbm.awsexampayment"
         minSdkVersion 17
         targetSdkVersion 21
-        versionCode 8
+        versionCode 10
         versionName "1.4"
     }
     buildTypes {
