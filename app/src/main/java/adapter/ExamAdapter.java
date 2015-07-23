@@ -221,6 +221,7 @@ public class ExamAdapter extends BaseAdapter {
                 final Toast toast = Toast.makeText(ctx, message, Toast.LENGTH_SHORT);
                 toast.show();
 
+
                 Handler handler = new Handler();
                 handler.postDelayed(new Runnable() {
                     @Override
